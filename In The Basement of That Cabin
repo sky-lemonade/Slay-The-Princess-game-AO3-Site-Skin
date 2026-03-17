@@ -167,49 +167,43 @@ form.search input[type="text"] {
   height: 26px !important;
 }
 
-#header #greeting .dropdown > a[href*="/users/"]::before {
+#header #greeting .dropdown > a[href*="/users/"],
+#header #greeting .dropdown > a[href*="/works/new"],
+#header #greeting > ul > li > a[href*="/users/logout"] {
+  filter: none !important;
+  -webkit-filter: none !important;
+  background: transparent !important;
+}
+
+#header #greeting .dropdown > a[href*="/users/"]::before,
+#header #greeting .dropdown > a[href*="/works/new"]::before,
+#header #greeting > ul > li > a[href*="/users/logout"]::before {
   content: "" !important;
   position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
   width: 100% !important;
   height: 100% !important;
-  background-image: url("https://64.media.tumblr.com/b0762e46b5b970412ea2ae9548628a32/7769e7e49fb4d57f-52/s250x400/43101d84202a6a537c711ca9f2e54d984b1dbbbe.png") !important;
-  background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
+  background-size: contain !important;
+}
+
+#header #greeting .dropdown > a[href*="/users/"]::before {
+  background-image: url("https://64.media.tumblr.com/b0762e46b5b970412ea2ae9548628a32/7769e7e49fb4d57f-52/s250x400/43101d84202a6a537c711ca9f2e54d984b1dbbbe.png") !important;
 }
 
 #header #greeting .dropdown > a[href*="/works/new"]::before {
-  content: "" !important;
-  position: absolute !important;
-  width: 100% !important;
-  height: 100% !important;
   background-image: url("https://64.media.tumblr.com/0dd5d9cf0c1f6d6488eb59885d990538/7769e7e49fb4d57f-de/s250x400/2b801617d3637b68580450ee7fc0ba9672931313.png") !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
 }
 
-#header #greeting a[href*="/users/logout"]::before {
-  content: "" !important;
-  position: absolute !important;
-  width: 100% !important;
-  height: 100% !important;
+#header #greeting > ul > li > a[href*="/users/logout"]::before {
   background-image: url("https://64.media.tumblr.com/bf3825f2b90c3371da9a68c4421f2676/7769e7e49fb4d57f-06/s250x400/9d2ac09b6459c3a8ca4b8a0ad886942895266978.png") !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
 }
 
-#header #greeting .dropdown > a[href*="/users/"]:focus,
-#header #greeting .dropdown > a[href*="/users/"]:active,
-#header #greeting .dropdown > a[href*="/works/new"]:focus,
-#header #greeting .dropdown > a[href*="/works/new"]:active,
-#header #greeting a[href*="/users/logout"]:focus,
-#header #greeting a[href*="/users/logout"]:active {
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-  outline: none !important;
+#header #greeting .menu a {
+  font-size: inherit !important;
+  color: inherit !important;
 }
 
 #greeting img.icon {
