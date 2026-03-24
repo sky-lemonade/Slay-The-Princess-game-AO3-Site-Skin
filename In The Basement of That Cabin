@@ -936,3 +936,8 @@ form dt {
 .draft.work .wrapper {
   background: rgba(44,30,22,.5);
 }
+
+li.previous span.disabled,
+li.next span.disabled {
+  display: none;
+}
