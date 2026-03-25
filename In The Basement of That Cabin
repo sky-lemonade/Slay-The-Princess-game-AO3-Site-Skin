@@ -628,11 +628,6 @@ img[src$="/images/lockblue.png"] {
   height: 0 !important;
 }
 
-img[src$="/images/skins/iconsets/default/icon_user.png"] {
-  padding: 100px 0 0 100px;
-  background-position: 0px -75px;
-}
-
 .index:not(.comment) .abbreviated img[src$="/images/skins/iconsets/default/icon_user.png"] {
   padding: 75px 0 0 75px;
   background-position: 0px -375px;
