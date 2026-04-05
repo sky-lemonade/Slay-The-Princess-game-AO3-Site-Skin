@@ -621,6 +621,7 @@ img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
   background-position: -150px -50px;
 }
 
+img[src$="/images/skins/iconsets/default/icon_user.png"],
 img[src$="/images/skins/iconsets/default/icon_collection.png"],
 img[src$="/images/lockblue.png"] {
   width: 0 !important;
