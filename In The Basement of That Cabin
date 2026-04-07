@@ -670,8 +670,8 @@ img[src$="/images/lockblue.png"] {
 
 p.kudos,
 .index .skins .icon {
-  background: url("https://64.media.tumblr.com/0cc94f481135b83980311944c5242a00/9a440418697f682f-42/s1280x1920/9a74433ac588ceb51eb0e6ba02832d148903b64b.png");
-  background-size: 55px 55px;
+  background: url("https://64.media.tumblr.com/f44852b1644360faca4fb993de8ac57c/9ab2b34ee1118ede-9a/s500x750/588db7d830cc47bfc7af3e5a55150849c1a9f5fc.png");
+  background-size: 60px 100px;
   background-repeat: no-repeat;
 }
 
