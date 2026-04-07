@@ -321,7 +321,7 @@ label.action:hover,
 a.current,
 a:link.current,
 .current a:visited {
-  background: #261a1a;
+  background: #261a1a !important;
   border: 2px solid #8f0000;
   box-shadow: none;
   color: #ab3740 !important;
