@@ -936,3 +936,9 @@ li.previous span.disabled,
 li.next span.disabled {
   display: none;
 }
+
+.bookmark span.count {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
