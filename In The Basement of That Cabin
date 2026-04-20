@@ -250,7 +250,7 @@ ul.tags li.warnings:first-child:before {
 
 .comment div.icon {
   background: #261a1a;
-  border: 1px solid #8f0000 !important;
+  border: 2px solid #8f0000 !important;
   margin-top: -32px;
 }
 
